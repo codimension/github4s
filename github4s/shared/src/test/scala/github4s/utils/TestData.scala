@@ -439,7 +439,7 @@ trait TestData {
   val stargazer         = Stargazer(user)
   val starredRepository = StarredRepository(repo)
 
-  val publicOrganizationEvent = PublicOrganizationEvent(
+  val publicGitHubEvent = PublicGitHubEvent(
     id = 21492285567L,
     `type` = "PushEvent",
     actor_login = "47erbot",

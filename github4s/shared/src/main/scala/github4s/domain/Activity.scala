@@ -40,7 +40,7 @@ final case class StarredRepository(
     starred_at: Option[String] = None
 )
 
-final case class PublicOrganizationEvent(
+final case class PublicGitHubEvent(
     id: Long,
     `type`: String,
     actor_login: String,

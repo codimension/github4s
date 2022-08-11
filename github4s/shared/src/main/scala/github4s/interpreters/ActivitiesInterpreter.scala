@@ -76,12 +76,24 @@ class ActivitiesInterpreter[F[_]](implicit client: HttpClient[F]) extends Activi
       org: String,
       pagination: Option[Pagination],
       headers: Map[String, String]
-  ): F[GHResponse[List[PublicOrganizationEvent]]] =
-    client.get[List[PublicOrganizationEvent]](
+  ): F[GHResponse[List[PublicGitHubEvent]]] =
+    client.get[List[PublicGitHubEvent]](
       method = s"orgs/$org/events",
       headers + eventsRecommendedHeader,
       Map.empty,
       pagination = pagination
     )
 
+  override def listPublicRepositoryEvents(
+      owner: String,
+      repo: String,
+      pagination: Option[Pagination],
+      headers: Map[String, String]
+  ): F[GHResponse[List[PublicGitHubEvent]]] =
+    client.get[List[PublicGitHubEvent]](
+      method = s"repos/$owner/$repo/events",
+      headers + eventsRecommendedHeader,
+      Map.empty,
+      pagination = pagination
+    )
 }

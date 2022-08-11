@@ -239,7 +239,7 @@ object Encoders {
       }
     }
 
-  implicit val encoderPublicOrganizationEvents: Encoder[PublicOrganizationEvent] =
+  implicit val encoderPublicGitHubEvents: Encoder[PublicGitHubEvent] =
     Encoder.instance { e =>
       Json.obj(
         "id"         -> e.id.asJson,
