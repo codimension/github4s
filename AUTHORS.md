@@ -8,8 +8,8 @@
 
 The maintainers of the project are:
 
-- [![alejandrohdezma](https://avatars.githubusercontent.com/u/9027541?v=4&s=20) **Alejandro Hernández (alejandrohdezma)**](https://github.com/alejandrohdezma)
 - [![BenFradet](https://avatars.githubusercontent.com/u/1737211?v=4&s=20) **Ben Fradet (BenFradet)**](https://github.com/BenFradet)
+- [![cb372](https://avatars.githubusercontent.com/u/106760?v=4&s=20) **Chris Birchall (cb372)**](https://github.com/cb372)
 - [![franciscodr](https://avatars.githubusercontent.com/u/1200151?v=4&s=20) **Francisco Diaz (franciscodr)**](https://github.com/franciscodr)
 - [![juanpedromoreno](https://avatars.githubusercontent.com/u/4879373?v=4&s=20) **Juan Pedro Moreno (juanpedromoreno)**](https://github.com/juanpedromoreno)
 
@@ -53,16 +53,19 @@ These are the people that have contributed to the _github4s_ project:
 - [![dcsobral](https://avatars.githubusercontent.com/u/141079?v=4&s=20) **dcsobral**](https://github.com/dcsobral)
 - [![drwlrsn](https://avatars.githubusercontent.com/u/981387?v=4&s=20) **drwlrsn**](https://github.com/drwlrsn)
 - [![guersam](https://avatars.githubusercontent.com/u/969120?v=4&s=20) **guersam**](https://github.com/guersam)
+- [![josevi96](https://avatars.githubusercontent.com/u/22874841?v=4&s=20) **josevi96**](https://github.com/josevi96)
 - [![josiah14](https://avatars.githubusercontent.com/u/1489462?v=4&s=20) **josiah14**](https://github.com/josiah14)
 - [![kalexmills](https://avatars.githubusercontent.com/u/22620342?v=4&s=20) **kalexmills**](https://github.com/kalexmills)
 - [![mscharley](https://avatars.githubusercontent.com/u/336509?v=4&s=20) **mscharley**](https://github.com/mscharley)
 - [![MaureenElsberry](https://avatars.githubusercontent.com/u/17556002?v=4&s=20) **MaureenElsberry**](https://github.com/MaureenElsberry)
 - [![mikegirkin](https://avatars.githubusercontent.com/u/4907402?v=4&s=20) **mikegirkin**](https://github.com/mikegirkin)
+- [![necosta](https://avatars.githubusercontent.com/u/26248959?v=4&s=20) **necosta**](https://github.com/necosta)
 - [![peterneyens](https://avatars.githubusercontent.com/u/6407606?v=4&s=20) **peterneyens**](https://github.com/peterneyens)
 - [![PeterPerhac](https://avatars.githubusercontent.com/u/1763911?v=4&s=20) **PeterPerhac**](https://github.com/PeterPerhac)
 - [![raulraja](https://avatars.githubusercontent.com/u/456796?v=4&s=20) **raulraja**](https://github.com/raulraja)
 - [![satorg](https://avatars.githubusercontent.com/u/3954178?v=4&s=20) **satorg**](https://github.com/satorg)
 - [![suhasgaddam](https://avatars.githubusercontent.com/u/7282584?v=4&s=20) **suhasgaddam**](https://github.com/suhasgaddam)
 - [![vincenzobaz](https://avatars.githubusercontent.com/u/6325220?v=4&s=20) **vincenzobaz**](https://github.com/vincenzobaz)
+- [![cb372](https://avatars.githubusercontent.com/u/106760?v=4&s=20) **cb372**](https://github.com/cb372)
 - [![franciscodr](https://avatars.githubusercontent.com/u/1200151?v=4&s=20) **franciscodr**](https://github.com/franciscodr)
 - [![oybek](https://avatars.githubusercontent.com/u/2409985?v=4&s=20) **oybek**](https://github.com/oybek)
