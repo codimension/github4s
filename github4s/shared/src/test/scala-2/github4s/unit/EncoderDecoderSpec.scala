@@ -148,6 +148,7 @@ class EncoderDecoderSpec extends AnyFlatSpec with ScalaCheckPropertyChecks {
   test[RepoPermissions]
   test[RepositoryBase]
   test[Repository]
+  test[RepositoryMinimal]
   test[ReviewersRequest]
   test[ReviewersResponse]
   test[BranchUpdateRequest]
@@ -172,5 +173,8 @@ class EncoderDecoderSpec extends AnyFlatSpec with ScalaCheckPropertyChecks {
   test[WriteFileRequest]
   test[WriteFileResponse]
   test[WriteResponseCommit]
-
+  test[SearchResultTextMatch]
+  test[SearchResultTextMatchLocation]
+  test[SearchCodeResult]
+  test[SearchCodeResultItem]
 }
