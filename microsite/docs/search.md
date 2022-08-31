@@ -38,6 +38,8 @@ You can search code with `searchCode`; it takes as arguments:
 To search `github` in the scala code within this project repository:
 
 ```scala mdoc:compile-only
+import github4s.domain.SearchCodeParam
+
 val results = gh.search.searchCode(
   query = "github",
   searchParams = List(
