@@ -56,9 +56,9 @@ object SearchCodeParam {
     override def paramValue: String = name
   }
 
-  final case class Repository(user: String, repository: String) extends SearchCodeParam {
+  final case class Repository(owner: String, repo: String) extends SearchCodeParam {
     override def paramName: String  = "repo"
-    override def paramValue: String = s"$user/$repository"
+    override def paramValue: String = s"$owner/$repo"
   }
 
   final case class Path(path: String) extends SearchCodeParam {
