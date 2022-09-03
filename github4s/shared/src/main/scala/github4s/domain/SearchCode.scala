@@ -38,10 +38,10 @@ object SearchCodeParam {
     sealed trait Value {
       def value: String
     }
-    final case object File extends Value {
+    case object File extends Value {
       override def value: String = "file"
     }
-    final case object Path extends Value {
+    case object Path extends Value {
       override def value: String = "path"
     }
   }
