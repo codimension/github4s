@@ -42,6 +42,7 @@ class GithubAPIv3[F[_]: Concurrent](
   override val organizations: Organizations[F] = new OrganizationsInterpreter[F]
   override val teams: Teams[F]                 = new TeamsInterpreter[F]
   override val projects: Projects[F]           = new ProjectsInterpreter[F]
+  override val search: Search[F]               = new SearchInterpreter[F]
 
 }
 

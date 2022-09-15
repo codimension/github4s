@@ -74,4 +74,9 @@ trait GithubAPIs[F[_]] {
    * Project-related operations.
    */
   def projects: Projects[F]
+
+  /**
+   * Search-related operations.
+   */
+  def search: Search[F]
 }
