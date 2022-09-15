@@ -200,6 +200,9 @@ object Decoders {
     source <- Decoder[Option[RepositoryBase]].at("source")
   } yield Repository.fromBaseRepos(base, parent, source)
 
+  implicit val decodeRepositoryMinimal: Decoder[RepositoryMinimal] =
+    deriveDecoder[RepositoryMinimal]
+
   implicit val decodePRStatus: Decoder[PullRequestReviewState] =
     Decoder.decodeString.emap {
       case PRRStateApproved.value         => PRRStateApproved.asRight
@@ -412,4 +415,13 @@ object Decoders {
     deriveDecoder[BranchUpdateResponse]
   implicit val decodeCommitComparisonResponse: Decoder[CommitComparisonResponse] =
     deriveDecoder[CommitComparisonResponse]
+
+  implicit val decodeSearchResultTextMatch: Decoder[SearchResultTextMatch] =
+    deriveDecoder[SearchResultTextMatch]
+  implicit val decodeSearchResultTextMatchLocation: Decoder[SearchResultTextMatchLocation] =
+    deriveDecoder[SearchResultTextMatchLocation]
+  implicit val decodeSearchCodeResult: Decoder[SearchCodeResult] =
+    deriveDecoder[SearchCodeResult]
+  implicit val decodeSearchCodeResultItem: Decoder[SearchCodeResultItem] =
+    deriveDecoder[SearchCodeResultItem]
 }

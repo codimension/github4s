@@ -40,6 +40,7 @@ class IntegrationSpec
     with UsersSpec
     with TeamsSpec
     with ProjectsSpec
+    with SearchSpec
 
 object Integration
     extends Tag(

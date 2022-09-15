@@ -238,6 +238,8 @@ object Encoders {
         case None => repo
       }
     }
+  implicit val encodeRepositoryMinimal: Encoder[RepositoryMinimal] =
+    deriveEncoder[RepositoryMinimal]
 
   implicit val encoderPublicGitHubEvents: Encoder[PublicGitHubEvent] =
     Encoder.instance { e =>
@@ -282,4 +284,13 @@ object Encoders {
   }
   implicit val encodeCommitComparisonResponse: Encoder[CommitComparisonResponse] =
     deriveEncoder[CommitComparisonResponse]
+
+  implicit val encodeSearchResultTextMatch: Encoder[SearchResultTextMatch] =
+    deriveEncoder[SearchResultTextMatch]
+  implicit val encodeSearchResultTextMatchLocation: Encoder[SearchResultTextMatchLocation] =
+    deriveEncoder[SearchResultTextMatchLocation]
+  implicit val encodeSearchCodeResult: Encoder[SearchCodeResult] =
+    deriveEncoder[SearchCodeResult]
+  implicit val encodeSearchCodeResultItem: Encoder[SearchCodeResultItem] =
+    deriveEncoder[SearchCodeResultItem]
 }
