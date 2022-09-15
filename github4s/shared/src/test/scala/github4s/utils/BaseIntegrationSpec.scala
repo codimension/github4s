@@ -65,8 +65,9 @@ abstract class BaseIntegrationSpec
 
   def testIsRight[A](response: GHResponse[A], f: A => Assertion = (_: A) => succeed): Assertion = {
     withClue(response.result) {
-      response.result.toOption map (f(_)) match {
-        case _ => succeed
+      response.result match {
+        case Left(error)  => fail(error.getMessage())
+        case Right(value) => f(value)
       }
     }
   }
