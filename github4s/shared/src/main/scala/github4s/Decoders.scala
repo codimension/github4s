@@ -49,7 +49,7 @@ object Decoders {
       message = message,
       date = date,
       url = url,
-      author = author.flatMap(_.id),
+      author = author.map(_.id),
       login = author.flatMap(_.login),
       avatar_url = author.flatMap(_.avatar_url),
       author_url = author.flatMap(_.html_url)
