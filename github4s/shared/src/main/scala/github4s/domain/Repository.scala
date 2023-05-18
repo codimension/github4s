@@ -25,7 +25,6 @@ final case class RepositoryBase(
     `private`: Boolean,
     fork: Boolean,
     archived: Boolean,
-    urls: RepoUrls,
     created_at: String,
     updated_at: String,
     pushed_at: String,
@@ -214,6 +213,7 @@ final case class Commit(
     message: String,
     date: String,
     url: String,
+    author: Option[String] = None,
     login: Option[String] = None,
     avatar_url: Option[String] = None,
     author_url: Option[String] = None

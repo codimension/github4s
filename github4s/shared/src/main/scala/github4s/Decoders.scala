@@ -29,6 +29,7 @@ import io.circe.generic.semiauto.deriveDecoder
  */
 object Decoders {
   final case class Author(
+      id: String,
       login: Option[String],
       avatar_url: Option[String],
       html_url: Option[String]
@@ -48,6 +49,7 @@ object Decoders {
       message = message,
       date = date,
       url = url,
+      author = author.flatMap(_.id),
       login = author.flatMap(_.login),
       avatar_url = author.flatMap(_.avatar_url),
       author_url = author.flatMap(_.html_url)
