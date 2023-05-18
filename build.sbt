@@ -7,7 +7,7 @@ val scala213         = "2.13.10"
 val scala3Version    = "3.2.2"
 val scala2Versions   = Seq(scala212, scala213)
 val allScalaVersions = scala2Versions :+ scala3Version
-ThisBuild / scalaVersion       := scala213
+ThisBuild / scalaVersion       := scala3Version
 ThisBuild / crossScalaVersions := allScalaVersions
 
 addCommandAlias("ci-test", "scalafmtCheckAll; scalafmtSbtCheck; mdoc; ++test")
